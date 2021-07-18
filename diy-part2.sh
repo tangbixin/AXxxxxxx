@@ -21,7 +21,7 @@
 
 # Delete default password
 #sed -i "/CYXluq4wUazHjmCDBCqXF/d" package/lean/default-settings/files/zzz-default-settings
-sed -i 's/luci-theme-bootstrap/luci-theme-argon-18.06/g' feeds/luci/collections/luci/Makefile
+#sed -i 's/luci-theme-bootstrap/luci-theme-argon-18.06/g' feeds/luci/collections/luci/Makefile
 
 #添加额外软件包
 #git clone https://github.com/kongfl888/luci-app-adguardhome.git package/luci-app-adguardhome
