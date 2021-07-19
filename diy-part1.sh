@@ -16,3 +16,9 @@
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+echo 'src-git smartdns https://github.com/pymumu/openwrt-smartdns' >>feeds.conf.default
+echo 'src-git OpenClash https://github.com/vernesong/OpenClash' >>feeds.conf.default
+echo 'src-git bypass https://github.com/garypang13/openwrt-bypass' >>feeds.conf.default
+echo 'src-git adguardhome https://github.com/kongfl888/luci-app-adguardhome' >>feeds.conf.default
+echo 'src-git smartdns https://github.com/pymumu/luci-app-smartdns' >>feeds.conf.default
+echo 'src-git chinadns-ng https://github.com/pexcn/openwrt-chinadns-ng' >>feeds.conf.default
