@@ -27,6 +27,14 @@ git clone https://github.com/Leo-Jo-My/luci-theme-opentomcat.git package/luci-th
 # 修改连接数数
 #sed -i 's/net.netfilter.nf_conntrack_max=.*/net.netfilter.nf_conntrack_max=65535/g' package/kernel/linux/files/sysctl-nf-conntrack.conf
 
+# 清除旧版argon主题并拉取最新版
+pushd ../package/lean
+rm -rf luci-theme-argon
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
+
+# 更改主题
+sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' /feeds/luci/collections/luci/Makefile
+
 # Modify the version number
 #sed -i "s/OpenWrt /MuaChow build $(TZ=UTC-8 date "+%Y.%m.%d") @ OpenWrt /g" package/lean/default-settings/files/zzz-default-settings
 
