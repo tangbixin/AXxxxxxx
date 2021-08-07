@@ -43,7 +43,7 @@ git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 
 #添加smartdns
 git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
-git clone -b https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
+git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 #git clone -b luci https://github.com/pexcn/openwrt-chinadns-ng.git package/luci-app-chinadns-ng
 # Server酱
 #git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
