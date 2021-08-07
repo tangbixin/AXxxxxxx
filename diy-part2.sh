@@ -42,6 +42,13 @@ git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci
 git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 
 #添加smartdns
-git clone https://github.com/pymumu/smartdns.git package/smartdns
+git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
 git clone https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 #git clone -b luci https://github.com/pexcn/openwrt-chinadns-ng.git package/luci-app-chinadns-ng
+# Server酱
+#git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
+
+# KPR plus+
+# git clone https://github.com/project-openwrt/luci-app-koolproxyR.git package/luci-app-koolproxyR
+
+
