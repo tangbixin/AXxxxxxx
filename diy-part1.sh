@@ -15,8 +15,8 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-src-git-full packages https://git.openwrt.org/feed/packages.git
-src-git-full luci https://git.openwrt.org/project/luci.git
-src-git-full routing https://git.openwrt.org/feed/routing.git
-src-git-full telephony https://git.openwrt.org/feed/telephony.git
-src-git-full nss_packages https://github.com/robimarko/nss-packages.git
+src-git packages https://git.openwrt.org/feed/packages.git
+src-git https://git.openwrt.org/project/luci.git
+src-git routing https://git.openwrt.org/feed/routing.git
+src-git telephony https://git.openwrt.org/feed/telephony.git
+src-git nss_packages https://github.com/robimarko/nss-packages.git
