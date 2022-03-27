@@ -21,7 +21,7 @@ on:
 
 env:
   REPO_URL: https://github.com/bitthief/openwrt
-  REPO_BRANCH: ipq807x-5.15
+  REPO_BRANCH: 
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: OpenWrt-DEV-AX6.config
   DIY_P1_SH: diy-part1.sh
